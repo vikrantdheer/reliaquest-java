@@ -1,23 +1,24 @@
-resilience4j.retry:
-  instances:
-    getAllEmployees:
-      maxRetryAttempts: 3
-      waitDuration: 1000ms
-    getEmployeesByNameSearch:
-      maxRetryAttempts: 3
-      waitDuration: 1000ms
-    getEmployeesById:
-      maxRetryAttempts: 3
-      waitDuration: 1000ms
-    getHighestSalaryOfEmployees:
-      maxRetryAttempts: 3
-      waitDuration: 1000ms
-    getTopTenHighestEarningEmployeeNames:
-      maxRetryAttempts: 3
-      waitDuration: 1000ms
-    createEmployee:
-      maxRetryAttempts: 3
-      waitDuration: 1000ms
-    deleteEmployeeById:
-      maxRetryAttempts: 3
-      waitDuration: 1000ms
+resilience4j:
+  retry:
+    instances:
+      getAllEmployees:
+        maxRetryAttempts: 3
+        waitDuration: 1000ms
+      getEmployeesByNameSearch:
+        maxRetryAttempts: 3
+        waitDuration: 1000ms
+      getEmployeesById:
+        maxRetryAttempts: 3
+        waitDuration: 1000ms
+      getHighestSalaryOfEmployees:
+        maxRetryAttempts: 3
+        waitDuration: 1000ms
+      getTopTenHighestEarningEmployeeNames:
+        maxRetryAttempts: 3
+        waitDuration: 1000ms
+      createEmployee:
+        maxRetryAttempts: 3
+        waitDuration: 1000ms
+      deleteEmployeeById:
+        maxRetryAttempts: 3
+        waitDuration: 1000ms

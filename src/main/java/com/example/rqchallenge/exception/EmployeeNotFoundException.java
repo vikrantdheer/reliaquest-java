@@ -1,9 +1,12 @@
-package com.example.rqchallenge;
+package com.example.rqchallenge.exception;
 
-public class EmployeeNotFoundException extends RuntimeException{
-    private static final long serialVersionUID = -1091326937421997753L;
+public class EmployeeNotFoundException extends RuntimeException {
 
     public EmployeeNotFoundException(String message) {
         super(message);
+    }
+
+    public EmployeeNotFoundException(String message, Throwable cause) {
+        super(message, cause);
     }
 }

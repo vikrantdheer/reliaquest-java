@@ -1,3 +1,15 @@
 
+h	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(œŒóÀùÿÿÿÿ8Óˆ•à‡2
+c	java:S112©"FDefine and throw a dedicated exception instead of using a generic one.(Èñ…‹8Ôˆ•à‡2
+Š
+java:S1192¨"gDefine a constant instead of duplicating this literal "Error occurred while deleting employee" 3 times.(åÒì›úÿÿÿÿ8Õˆ•à‡2
 _
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8‘‹¥¼‡2
+java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄŞ8İˆ•à‡2
+U
+java:S1172E"3Remove this unused method parameter "searchString".(î£Š­ùÿÿÿÿ8æˆ•à‡2
+F
+java:S1172_")Remove this unused method parameter "id".(ÿÔµŠ8éˆ•à‡2
+R
+java:S1172‘"4Remove this unused method parameter "employeeInput".(êŠ¾Œ8íˆ•à‡2
+G
+java:S1172­")Remove this unused method parameter "id".(åŸãË8ñˆ•à‡2
